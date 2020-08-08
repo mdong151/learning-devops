@@ -1,0 +1,9 @@
+---
+- name: "first challenge"
+  hosts: host1
+
+  tasks:
+   - name: pip module install ansible
+     pip:
+       name: ansible
+       virtualenv: ~/challenge
